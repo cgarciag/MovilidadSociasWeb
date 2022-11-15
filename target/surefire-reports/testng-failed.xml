@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Movilidad Socias Web Carmen García]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Pruebas(failed)" verbose="0">
+    <classes>
+      <class name="tests.CasosDePrueba">
+        <methods>
+          <include name="preparacion"/>
+          <include name="preparacionTests"/>
+          <include name="posTests"/>
+          <include name="CP005_IrAPagarMiCredito"/>
+          <include name="preparacion2"/>
+        </methods>
+      </class> <!-- tests.CasosDePrueba -->
+    </classes>
+  </test> <!-- Pruebas(failed) -->
+</suite> <!-- Failed suite [Suite Movilidad Socias Web Carmen García] -->

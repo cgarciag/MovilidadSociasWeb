@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Movilidad Socias Web Carmen García">
+<listeners>
+	<listener class-name= "listener.TestListener"/>
+</listeners>
+	<test name="Pruebas">
+		<classes>
+			<class name="tests.CasosDePrueba">
+			<methods>
+					<include name="CP001_LoginOk()"/>
+					<include name="CP002_LoginClaveVacia()"/>
+			</methods>	
+			</class>
+		</classes>
+	</test>
+</suite>

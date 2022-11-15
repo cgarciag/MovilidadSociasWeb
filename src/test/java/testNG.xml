@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Movilidad Socias Web Carmen García">
+	<test name="Pruebas">
+		<classes>
+			<class name="tests.CasosDePrueba">
+				<methods>
+					<include name="CP001_Loguearse()"/>
+				</methods>
+				<methods>
+					<include name="CP005_IrAPagarMiCredito()"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
